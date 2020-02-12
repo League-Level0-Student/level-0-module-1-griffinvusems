@@ -17,7 +17,14 @@ import javax.swing.JOptionPane;
 public class SecretMessageBox {
 public static void main(String[] args) {
 	String password = "codingIsTheBest";
-	JOptionPane.showMessageDialog("what is ur secret message")
+	String response = JOptionPane.showInputDialog("what is ur secret message");
+	if (password.equals (response)) {
+		JOptionPane.showMessageDialog(null,"codingIsTheBest");
+	} else {
+		JOptionPane.showMessageDialog(null,	"INTRUDER!!");
+
+	}
+	
 }
 
 

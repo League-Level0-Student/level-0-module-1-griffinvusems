@@ -7,9 +7,12 @@ public class unbirthday {
 		
 	String birthday = JOptionPane.showInputDialog(null,"when is your birthday?");  
 	if (birthday.equals("11/30")) { 
-		"Happy Birthday!");
+		JOptionPane.showMessageDialog(null,"Happy Birthday!");
 	} else {
 		JOptionPane.showMessageDialog(null, "I wish you a very Unbirthday!!");
+		for (int i = 0; i < args.length; i++) {
+			
+		}
 	}	
 	}
 }

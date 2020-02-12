@@ -1,4 +1,4 @@
-package _03_remarkable;
+ package _03_remarkable;
 //    Copyright (c) The League of Amazing Programmers 2013-2019
 //    Level 0
 
@@ -11,20 +11,21 @@ public static void main(String[] args) {
 	 String person = "He is very Intelligent!!";
 	 String guy = "He is very harsh!!";
 	 String girl = "She is very nice to me!!";
-	
-	if() {
-		
+	String Response = JOptionPane.showInputDialog(null,"what is your name");
+	 if (Response.equals("person")) {
+		 
+		 JOptionPane.showMessageDialog(null,person);
 	}
-	
-	if (condition) {
-		
+	if (Response.equals("guy")) {
+		 
+		 JOptionPane.showMessageDialog(null,guy);
 	}
-	else if() {
+	if (Response.equals("girl")) {
 		
+		 JOptionPane.showMessageDialog(null,girl);
 	}
-	else if() {
+		}
 		
-	}
 	
 		
 	
@@ -33,5 +34,5 @@ public static void main(String[] args) {
 		// 3. In a pop-up, tell the user what is remarkable about that person. 
 
 	}
-}
+
 
